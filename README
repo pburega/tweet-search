@@ -6,3 +6,8 @@ $ docker build -t twitter-search .
 #
 # to run the docker image:
 $ docker run -p 8080:8080 twitter-search
+#
+# or run directly from python3
+$ python3 app.py
+#
+# point web browser at http:0.0.0.0:8080
