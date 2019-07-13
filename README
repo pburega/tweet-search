@@ -1,0 +1,8 @@
+#
+# Paul Burega, paulburega@gmail.com  July 12, 2019
+#
+# to build the docker image from the current directory:
+$ docker build -t twitter-search .
+#
+# to run the docker image:
+$ docker run -p 8080:8080 twitter-search

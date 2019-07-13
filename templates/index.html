@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <title>Python Twitter Search App for BETM</title>
+ 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
+ 
+    <link href="../static/css/search.css" rel=stylesheet> 
+    <script src="../static/js/jquery-3.4.1.js"></script>
+    <script src="../static/js/search.js"></script>
+
+</head>
+ 
+<body>
+ 
+    <div class="container">
+        <div class="header">
+            <nav>
+                <ul class="nav nav-pills pull-right">
+                    <li role="presentation" class="active"><a href="#">Home</a</li>
+                </ul>
+            </nav>
+            <h3 class="text-muted">Python Twitter Search App for BETM</h3>
+        </div>
+ 
+     <div class="jumbotron">
+        <h1>Twitter Search App</h1>
+        <form class="form-signin">
+        <label for="inputSearch" class="sr-only">Search</label>
+        <input type="name" name="inputSearch" id="inputSearch" class="form-control" placeholder="Search String" required autofocus>
+        <input type="email" name="inputLength" id="inputLength" class="form-control" placeholder="Number of Tweets to return, default 5, max 100" required autofocus>
+        <label for="inputLength" class="sr-only">Length</label>
+         
+        <button id="btnSearch" class="btn btn-lg btn-primary btn-block" type="button">Search</button>
+      </form> 
+      </div>
+ 
+        <div class="row marketing">
+            <div class="col-lg-6">
+                <h4>Search Tips</h4>
+                <p>Use '#' to prefix hashtags.</p>
+ 
+ 
+            </div>
+ 
+            <div class="col-lg-6">
+                <h4>Search for User Posts</h4>
+                <p>User posts can be searched with '@'.</p>
+ 
+ 
+            </div>
+        </div>
+ 
+        <footer class="footer">
+            <p>&copy; Paul Burega 2019</p>
+        </footer>
+ 
+    </div>
+</body>
+ 
+</html>
+
